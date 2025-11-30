@@ -209,24 +209,24 @@ Your Playground (Make customizations and changes below)
 *****************************************************************/
 
 body {
-    background-color: #fff; /* Change background color */
+    background:content-box radial-gradient(crimson, skyblue);
 }
 
 /************************    navbar   ***************************/
 
 nav {
-       background-color: #ffffff;
-       border-bottom: 2px solid #e0e0e0;
+       background-color: #9cda81;
+       border-bottom: 2px solid #ee1a1a;
 }
 
 nav img {
-    border: #333333 dotted 2px;
+    border: hsl(262, 87%, 65%) solid 2px;
 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333333;
+    color: #7400ef;
     font-weight: bold;
 }
 
@@ -246,40 +246,40 @@ ul li a {
 /***********************    sidebar styles   ********************/
 
 .bio-sidebar {
-    border:#333333 dotted 2px;
+    border:#333333 solid 2px;
 }
 
 .bio-sidebar .bio,
 .bio-sidebar .links{
-    border-bottom: #333333 dotted 2px;
+    border-bottom: #333333 solid 2px;
 }
 
 /***********************    main styles   ***********************/
 
 .main-section section {
-    border: #333333 dotted 2px; 
+    border: #333333 solid 2px; 
 }
 
 .main-section .posts div {
-    border: #333333 dotted 2px;
+    border: #333333 solid 2px;
 }
 
 
 /************************    bio styles   ***********************/
 
 .bio img {
-    border:#333333 dotted 2px;
+    border:#333333 inset 2px;
 }
 
 /**********************    aboutme styles   *********************/
 .about-me .about-me-text *{
-    border:#333333 dotted 2px;
+    border:#333333 solid 2px;
 }
 
 /*********************    friends     *********************/
 
 .friends img {
-    border: #333333 dotted 2px;
+    border: #333333 solid 2px;
 }
 
 
