@@ -268,18 +268,31 @@ ul li a {
 /************************    bio styles   ***********************/
 
 .bio img {
-    border:#333333 inset 2px;
+    border:#333333 none 2px;
 }
 
 /**********************    aboutme styles   *********************/
 .about-me .about-me-text *{
-    border:#333333 solid 2px;
+    border:#333333 none 2px;
+}
+
+/* Use Comic Sans for the profile name and the About Me text */
+.about-me .name,
+.about-me .about-text {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: #2a2a2a;
+}
+
+/* White text with a blue drop-shadow for emphasis */
+.white-text-with-blue-shadow {
+    color: #ffffff; /* main text color */
+    text-shadow: 0 2px 4px rgba(59,130,246,0.9); /* blue shadow (Tailwind blue-500) */
 }
 
 /*********************    friends     *********************/
 
 .friends img {
-    border: #333333 solid 2px;
+    border: #333333 none 2px;
 }
 
 
